@@ -11,6 +11,53 @@
 	.banner-form button.form-control {
 		height:49px;
 	}
+
+	/* my css */
+
+	.midBanner{
+		height: 550px !important;
+		margin-bottom: -700px;
+	}
+
+	.midBannerText{
+		margin: 100px;
+		font-size: 100px;
+		background-color: black 0.9;
+		text-align: center;
+		background-color:rgba(15, 0, 0, 0.527);
+		color: white;
+		position: relative;
+		top: 100px;
+		line-height: 120px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+
+	}
+}
+
+@media (min-width: 1199px) and (max-width: 1400px) {
+	.midBanner{
+		height: 550px !important;
+		margin-bottom: -700px;
+	}
+
+	.midBannerText{
+		margin: 100px;
+		font-size: 100px;
+		background-color: black 0.9;
+		text-align: center;
+		background-color:rgba(15, 0, 0, 0.527);
+		color: white;
+		position: relative;
+		top: 100px;
+		line-height: 120px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+
+	}
+	.midBanner img{
+		width: 100% !important;
+	}
 }
 
 /* md */
@@ -122,9 +169,36 @@
 		padding: 15px;
 	}
 
+	/* my css */
 
+	.midBanner{
+		height: 550px !important;
+		margin-bottom: -600px;
+	}
 
+	.midBannerText{
+		margin: 50px;
+		font-size: 6rem;
+		background-color: black 0.9;
+		text-align: center;
+		background-color:rgba(15, 0, 0, 0.527);
+		color: white;
+		position: relative;
+		top: 40px;
+		line-height: 120px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		padding-left: 50px;
+		padding-right: 50px;
+
+	}
+	.midBanner img{
+		width: 100% !important;
+	}
 }
+
+
+
 
 
 /* sm */
@@ -440,6 +514,28 @@
 	}
 	.recommended-cta .single-cta {
 		padding: 0 15px;
+	}
+
+	.midBanner{
+		height: 550px !important;
+		margin-bottom: -600px;
+	}
+
+	.midBannerText{
+		margin: 50px;
+		font-size: 6rem;
+		background-color: black 0.9;
+		text-align: center;
+		background-color:rgba(15, 0, 0, 0.527);
+		color: white;
+		position: relative;
+		top: 50px;
+		line-height: 120px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		padding-left: 50px;
+		padding-right: 50px;
+
 	}
 }
 
@@ -960,6 +1056,35 @@
 	}
 	.nav-right .dropdown.language-dropdown .dropdown-menu {
 		margin-top: 0;
+	}
+
+	.midBanner{
+		height: 850px !important;
+		margin-bottom: -600px;
+		overflow-x: hidden !important;
+		overflow-y: hidden !important;
+	}
+
+	.midBannerText{
+		margin: 50px;
+		font-size: 500%;
+		background-color: black 0.9;
+		text-align: center;
+		background-color:rgba(15, 0, 0, 0.527);
+		color: white;
+		position: relative;
+		top: 50px;
+		line-height: 120px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		padding-left: 50px;
+		padding-right: 50px;
+
+	}
+
+	.midBanner img{
+		width: 450% !important;
+		visibility: hidden !important;
 	}
 
 }
